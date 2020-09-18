@@ -100,3 +100,7 @@ endlegend
 
 !define Enterprise_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Enterprise")
 !define System_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "System")
+!define Business_Platform_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Бизнес-платформа")
+!define Business_Area_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Бизнес область")
+!define Product_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Продукт")
+!define Context_Boundary(e_alias, e_label) Boundary(e_alias, e_label, "Контекст")
