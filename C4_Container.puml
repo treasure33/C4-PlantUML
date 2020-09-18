@@ -11,6 +11,8 @@
 ' ##################################
 
 !define CONTAINER_BG_COLOR #438DD5
+!define EXTERNAL_BUSINESS_AREA_BG_COLOR #999999
+
 
 ' Styling
 ' ##################################
@@ -39,7 +41,7 @@ skinparam rectangle<<Продукт>> {
 skinparam rectangle<<External Бизнес область>> {
     StereotypeFontColor ELEMENT_FONT_COLOR
     FontColor ELEMENT_FONT_COLOR
-    BackgroundColor EXTERNAL_SYSTEM_BG_COLOR
+    BackgroundColor EXTERNAL_BUSINESS_AREA_BG_COLOR
     BorderColor #8A8A8A
 }
 
